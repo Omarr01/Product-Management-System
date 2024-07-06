@@ -1,0 +1,17 @@
+.buttons--saveButton {
+    border: 2px solid #5072A7;
+}
+
+.buttons--saveButton:hover {
+    background-color: #5072A7;
+    color: white;
+}
+
+.buttons--cancelButton  {
+    border: 2px solid #BD3039;
+}
+
+.buttons--cancelButton:hover {
+    background-color: #BD3039;
+    color: white;
+}

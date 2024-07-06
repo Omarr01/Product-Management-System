@@ -1,0 +1,37 @@
+.product {
+    width: 300px;
+    height: 230px;
+    overflow: auto;
+    border: 3px solid rgba(0, 0, 0, 0.75);
+    border-radius: 15px;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.75);
+}
+
+.product:hover {
+    box-shadow: 0 7px #df4848;
+    border-color: #df4848;
+}
+
+.product--selected {
+    width: 300px;
+    height: 230px;
+    overflow: auto;
+    border: 3px solid rgba(0, 0, 0, 0.75);
+    border-radius: 15px;
+    box-shadow: 0 7px #df4848;
+    border-color: #df4848;
+}
+
+.info--list {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    font-weight: 500;
+}
+
+.delete-checkbox {
+    margin: 30px 0px 0px 30px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}

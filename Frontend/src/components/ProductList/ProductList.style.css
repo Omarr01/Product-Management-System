@@ -1,0 +1,31 @@
+.products-list {
+    display: flex;
+    margin: 30px 60px;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.list--empty {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.buttons--addButton {
+    border: 2px solid #5072A7;
+}
+
+.buttons--addButton:hover {
+    background-color: #5072A7;
+    color: white;
+}
+
+.buttons--deleteButton {
+    border: 2px solid #BD3039;
+}
+
+.buttons--deleteButton:hover {
+    background-color: #BD3039;
+    color: white;
+}
